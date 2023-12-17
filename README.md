@@ -1,7 +1,7 @@
 # 安装x-ui，搭建告诉稳定节点所需的代码
 
 
-- ## 获取管理员权限
+- ## 若没有root权限，获取管理员权限
 
   ```
   sudo -i
@@ -27,13 +27,20 @@
 
 - ## 安装X-ui
 
-  ```
-  bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-  ```
 
-  ```
-  bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
-  ```
+  - 代码1：
+
+    ```
+    [bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh]
+    ```
+
+  - 代码2
+
+    ```
+    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
+    ```
+
+    
 
 - ## 检查x-ui服务状态
 
@@ -41,7 +48,7 @@
   systemctl status x-ui
   ```
 
-  #### 	如果服务没有运行，您可以使用以下命令启动它
+  #### 			如果服务没有运行，您可以使用以下命令启动它
 
   ```
   systemctl start x-ui
