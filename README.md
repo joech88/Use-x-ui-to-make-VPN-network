@@ -26,18 +26,19 @@
     ```
 
 - ## 安装X-ui
+- 使用的是ygkkk的x-ui-yg脚本
 
 
   - 代码1：
 
     ```
-    bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
+    bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
     ```
-
+或
   - 代码2
 
     ```
-    bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
     ```
 
     
